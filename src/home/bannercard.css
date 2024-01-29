@@ -1,0 +1,73 @@
+
+.banner .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+ .banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .banner .swiper-slide:nth-child(1n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327939570i/10098912.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner .swiper-slide:nth-child(2n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1384804310i/18667422.jpg');
+    background-size: cover;
+  }
+  
+  .banner .swiper-slide:nth-child(3n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1701879956i/203351900.jpg');
+    background-size: cover;
+  }
+  
+  .banner .swiper-slide:nth-child(4n) {
+    background-image: url('https://m.media-amazon.com/images/I/91ACDzilwIL._SY466_.jpg');
+    background-size:cover;
+    background-position: center center;
+  }
+  
+  .banner .swiper-slide:nth-child(5n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348264535i/4386485.jpg');
+    background-size:cover;
+    /* background-position: center center; */
+  }
+ 
+  
+  .banner .swiper-slide:nth-child(6n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327939511i/92364.jpg');
+    background-size:cover;
+    background-position: center center;
+  }
+ 
+  .banner .swiper-slide:nth-child(7n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg');
+    background-size:cover;
+    background-position: center center;
+  }
+ 
+  .banner .swiper-slide:nth-child(8n) {
+    background-image: url(' https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320437674i/9222475.jpg');
+    background-size:cover;
+    background-position: center center;
+  }
+  
+  .banner .swiper-slide:nth-child(9n) {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg');
+    background-size:cover;
+    background-position: center center;
+  }
+  
+  .banner .swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+  
