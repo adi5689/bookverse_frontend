@@ -67,7 +67,7 @@ import Users from "../Dashboard/Users";
         {
           path: "/admin/dashboard/edit-books/:id",
           element: <EditBooks />,
-          loader:({params}) => fetch(`https://bookverse-api.onrender.com//book/${params.id}`),
+          loader:({params}) => fetch(`https://bookverse-api.onrender.com/book/${params.id}`),
         },
         // {
         //   path: "/admin/dashboard/users",
